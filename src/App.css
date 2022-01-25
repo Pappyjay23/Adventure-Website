@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", 'Gabriola', Times, serif;
+  font-weight: 700;
+}
+
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 6.5rem;
+  color: #fff;
+}
+
+.services {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.362), rgba(0,0,0,0.362)), url("./images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.products {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.362), rgba(0,0,0,0.362)), url("./images/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.sign-up {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.362), rgba(0,0,0,0.362)), url("./images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .services,
+  .products,
+  .sign-up {
+    font-size: 4rem;
+  }
+}
